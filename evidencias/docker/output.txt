@@ -1,0 +1,27 @@
+===== docker ps -a =====
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                              PORTS               NAMES
+f1e218ef061b        evaluacion2-chile   "python app.py"          3 seconds ago       Exited (0) Less than a second ago                       samplerunning
+abe401753581        87b1f2c8aa8e        "/bin/sh -c 'pip ins…"   56 minutes ago      Exited (2) 56 minutes ago                               naughty_cray
+ce10ff21e0e4        328fdd4d2291        "/bin/sh -c 'pip ins…"   11 hours ago        Exited (2) 11 hours ago                                 thirsty_lalande
+69e479304724        328fdd4d2291        "/bin/sh -c 'pip ins…"   11 hours ago        Exited (2) 11 hours ago                                 cool_borg
+d6a546f575bc        4fe34947754f        "/bin/sh -c 'pip ins…"   11 hours ago        Exited (2) 11 hours ago                                 jovial_lalande
+ca2c5ae75c2e        328fdd4d2291        "/bin/sh -c 'pip ins…"   12 hours ago        Exited (2) 12 hours ago                                 kind_shamir
+
+===== logs del contenedor =====
+REPORTE ECONOMICO PARA PYME CHILENA
+-----------------------------------
+Fecha de consulta: 2026-05-16 16:25:53
+URL API utilizada: https://mindicador.cl/api
+Presupuesto configurado: $40,000,000 CLP
+-----------------------------------
+UF: $40,357.67 CLP
+UTM: $70,588.00 CLP
+Dolar observado: $891.00 CLP
+Euro: $1,040.40 CLP
+-----------------------------------
+Equivalente en UF: 991.14 UF
+Equivalente en USD: 44893.38 USD
+Equivalente en EURO: 38446.75 EUR
+-----------------------------------
+Decision sugerida:
+Revisar costos indexados a UF y compras internacionales antes de emitir cotizaciones.
